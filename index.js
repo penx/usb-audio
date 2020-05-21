@@ -4,9 +4,8 @@
 
 // Appendix A
 
-// A.1
 
-export const AUDIO_FUNCTION = AUDIO;
+// A.1 - in pointers
 
 // A.2
 
@@ -20,12 +19,7 @@ export const HEADSET = 0x24
 export const HEADSET_ADAPTER = 0x25
 export const SPEAKERPHONE = 0x26
 
-// A.3 AUDIO FUNCTION PROTOCOL CODES
-
-export const FUNCTION_PROTOCOL_UNDEFINED = 0x00;
-export const AF_VERSION_01_00 = IP_VERSION_01_00;
-export const AF_VERSION_02_00 = IP_VERSION_02_00;
-export const AF_VERSION_03_00 = IP_VERSION_03_00;
+// A.3 - in pointers
 
 // A.4 AUDIO INTERFACE CLASS CODE
 
@@ -48,3 +42,16 @@ export const MEM = 0x03;
 export const INTEN = 0x04;
 export const STRING = 0x05;
 export const HIGH_CAPABILITY_DESCRIPTOR = 0x06;
+
+
+// Sections with pointers
+
+// A.1
+
+export const AUDIO_FUNCTION = AUDIO;
+// A.3 AUDIO FUNCTION PROTOCOL CODES
+
+export const FUNCTION_PROTOCOL_UNDEFINED = 0x00;
+export const AF_VERSION_01_00 = IP_VERSION_01_00;
+export const AF_VERSION_02_00 = IP_VERSION_02_00;
+export const AF_VERSION_03_00 = IP_VERSION_03_00;
