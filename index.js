@@ -5,6 +5,7 @@
 // Appendix A
 
 // A.1
+
 export const AUDIO_FUNCTION = AUDIO;
 
 // A.2
@@ -25,6 +26,10 @@ export const FUNCTION_PROTOCOL_UNDEFINED = 0x00;
 export const AF_VERSION_01_00 = IP_VERSION_01_00;
 export const AF_VERSION_02_00 = IP_VERSION_02_00;
 export const AF_VERSION_03_00 = IP_VERSION_03_00;
+
+// A.4 AUDIO INTERFACE CLASS CODE
+
+export const AUDIO = 0x01;
 
 // ...
 
