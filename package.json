@@ -1,0 +1,20 @@
+{
+  "name": "usb-audio",
+  "version": "0.0.1",
+  "description": "Universal Serial Bus Device Class Definition for Audio Devices",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/usb-audio.git"
+  },
+  "keywords": [
+    "USB",
+    "Audio"
+  ],
+  "author": "Alasdair McLeay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penx/usb-audio/issues"
+  },
+  "homepage": "https://github.com/penx/usb-audio#readme"
+}
