@@ -1,8 +1,18 @@
 {
   "name": "usb-audio",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Universal Serial Bus Device Class Definition for Audio Devices",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "index.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/penx/usb-audio.git"
@@ -16,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/penx/usb-audio/issues"
   },
-  "homepage": "https://github.com/penx/usb-audio#readme"
+  "homepage": "https://github.com/penx/usb-audio#readme",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
 }
